@@ -40,6 +40,13 @@ WCAG AAの比率を計算し、通常/大きい文字を判定して閾値と比
 
 ---
 
+## 必要要件
+
+- **Figma MCPサーバー**がClaude Codeに接続されていること — このスキルは`use_figma`と`get_metadata`を呼び出します（スキャンは読み取り専用、書き込みは行いません）
+- 対象のFRAME/SECTION/COMPONENT/COMPONENT_SETを含むFigmaファイルに、そのMCP接続からアクセスできること
+
+---
+
 ## リポジトリ構成
 
 ```
@@ -67,11 +74,7 @@ git clone https://github.com/gaspanik/figma-contrast-check-lite-skill
 cp -r skills/figma-contrast-check-lite ~/.claude/skills/
 ```
 
-**3. Figma MCPの接続を確認**
-
-このスキルは公式Figma MCPサーバーの`use_figma`を読み取り専用で呼び出します。書き込みは行いません。
-
-**4. スキルを実行**
+**3. スキルを実行**
 
 ```
 /figma-contrast-check-lite https://www.figma.com/design/<fileKey>/...
