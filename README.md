@@ -4,7 +4,7 @@ FigmaのFRAME / SECTION / COMPONENT / COMPONENT_SETを指定すると、テキ�
 
 これは有料講座で提供されているフル版`figma-contrast-check`（AA/AAAの選択、非テキストUI要素の参考チェック、確認後の自動修正機能つき）から、それらの機能を取り除いたトリムダウン版です。判定基準はWCAG AA固定、対象はテキストのみ、そしてFigmaファイルへの書き込みは一切行わない「チェック＆レポートのみ」の軽量版です。**コントラストチェックの中身がどんなものか、まず試してみたい方**に向いています。
 
-> **フル版が気になる方へ**: この軽量版はWCAGコントラストチェックのコアロジック単体を体験いただくものです。フル版ではAAA判定・非テキストUI要素（ボタン枠線・アイコンなど）の参考チェック・確認ゲート付きの自動修正が加わります。他のFigma連携スキル（`figma-audit`、`figma-layer-rename`、`figma-tokenize`など）と組み合わせて使うことも想定しています。全スキルカタログはこちら: [KMRVID Claude Skills README](https://fragrant-edam-563.notion.site/KMRVID-Claude-Skills-README-md-3935dae25dd280e295b6cafc1d47d0f6)
+> **フル版が気になる方へ**: この軽量版はWCAGコントラストチェックのコアロジック単体を体験いただくものです。フル版ではAAA判定・非テキストUI要素（ボタン枠線・アイコンなど）の参考チェック・確認ゲート付きの自動修正が加わります。他のFigma連携スキル（[`figma-audit`](https://github.com/gaspanik/figma-audit-skill)、`figma-layer-rename`、`figma-tokenize`など）と組み合わせて使うことも想定しています。全スキルカタログはこちら: [KMRVID Claude Skills README](https://fragrant-edam-563.notion.site/KMRVID-Claude-Skills-README-md-3935dae25dd280e295b6cafc1d47d0f6)
 
 > **有料講座のプレビュー**: 講座内の各種スキルを実際に動かしている様子は、こちらの[YouTube](https://www.youtube.com/@kmrvid/videos)や講座の[無料プレビュー](https://kmrvid.com/apps/ldt-course/course/6922c0ad336ff5545bbff61d/6a40a8485dd31d7633eb902e?locale=ja)（アカウント作成、ログイン不要）に掲載しております。
 
@@ -36,7 +36,7 @@ WCAG AAの比率を計算し、通常/大きい文字を判定して閾値と比
 
 - **対象:** WCAG 1.4.3（テキストのコントラスト）をAAレベルで判定。判定に使う背景色は、直近の親のFillだけでなく、実際に合成された結果（覆う兄弟レイヤーや祖先のFill、不透明度の重なりを考慮）を使用
 - **非対応:** AAA判定、非テキストUI要素（ボタン枠線・アイコンなど）のコントラスト、Figmaファイルへの書き込み・自動修正。これらが必要な場合はフル版`figma-contrast-check`をご利用ください
-- `figma-audit`（構造面のAI可読性監査）と組み合わせて使うと、「AIが正確に実装できる状態か」と「実装結果が実際に読める配色になっているか」の両方をチェックできます
+- [`figma-audit`](https://github.com/gaspanik/figma-audit-skill)（構造面のAI可読性監査）と組み合わせて使うと、「AIが正確に実装できる状態か」と「実装結果が実際に読める配色になっているか」の両方をチェックできます
 
 ---
 
