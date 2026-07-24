@@ -4,7 +4,7 @@ FigmaのFRAME / SECTION / COMPONENT / COMPONENT_SETを指定すると、テキ�
 
 これは有料講座で提供されているフル版`figma-contrast-check`（AA/AAAの選択、非テキストUI要素の参考チェック、確認後の自動修正機能つき）から、それらの機能を取り除いたトリムダウン版です。判定基準はWCAG AA固定、対象はテキストのみ、そしてFigmaファイルへの書き込みは一切行わない「チェック＆レポートのみ」の軽量版です。**コントラストチェックの中身がどんなものか、まず試してみたい方**に向いています。
 
-> **フル版が気になる方へ**: この軽量版はWCAGコントラストチェックのコアロジック単体を体験いただくものです。フル版ではAAA判定・非テキストUI要素（ボタン枠線・アイコンなど）の参考チェック・確認ゲート付きの自動修正が加わります。他のFigma連携スキル（[`figma-audit`](https://github.com/gaspanik/figma-audit-skill)、`figma-layer-rename`、`figma-tokenize`など）と組み合わせて使うことも想定しています。全スキルカタログはこちら: [KMRVID Claude Skills README](https://fragrant-edam-563.notion.site/KMRVID-Claude-Skills-README-md-3935dae25dd280e295b6cafc1d47d0f6)
+> **フル版が気になる方へ**: この軽量版はWCAGコントラストチェックのコアロジック単体を体験いただくものです。フル版ではAAA判定・非テキストUI要素（ボタン枠線・アイコンなど）の参考チェック・確認ゲート付きの自動修正が加わります。他のFigma連携スキル（[`figma-audit`](https://github.com/gaspanik/figma-audit-skill)、[`figma-layer-rename`](https://github.com/gaspanik/figma-layer-rename-skill)、`figma-tokenize`など）と組み合わせて使うことも想定しています。全スキルカタログはこちら: [KMRVID Claude Skills README](https://fragrant-edam-563.notion.site/KMRVID-Claude-Skills-README-md-3935dae25dd280e295b6cafc1d47d0f6)
 
 > **有料講座のプレビュー**: 講座内の各種スキルを実際に動かしている様子は、こちらの[YouTube](https://www.youtube.com/@kmrvid/videos)や講座の[無料プレビュー](https://kmrvid.com/apps/ldt-course/course/6922c0ad336ff5545bbff61d/6a40a8485dd31d7633eb902e?locale=ja)（アカウント作成、ログイン不要）に掲載しております。
 
