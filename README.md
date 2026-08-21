@@ -1,5 +1,7 @@
 # figma-contrast-check-lite — Figmaフレームの WCAG コントラストチェック（軽量版）
 
+> *This README is in Japanese only (tied to a Japanese-language paid course). The skill itself works in any language — see [`skills/figma-contrast-check-lite/SKILL.md`](skills/figma-contrast-check-lite/SKILL.md) for what it does.*
+
 FigmaのFRAME / SECTION / COMPONENT / COMPONENT_SETを指定すると、テキストの実効的な前景色・背景色（覆う兄弟レイヤーや祖先のFillを合成して解決）を求め、WCAG AA基準のコントラスト比をチェックするClaude Codeスキルです。
 
 これは有料講座で提供されているフル版`figma-contrast-check`（AA/AAAの選択、非テキストUI要素の参考チェック、確認後の自動修正機能つき）から、それらの機能を取り除いたトリムダウン版です。判定基準はWCAG AA固定、対象はテキストのみ、そしてFigmaファイルへの書き込みは一切行わない「チェック＆レポートのみ」の軽量版です。**コントラストチェックの中身がどんなものか、まず試してみたい方**に向いています。
